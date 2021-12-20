@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sergiolmartinez-io/static/css/main.88b6b40e.css",
-    "main.js": "/sergiolmartinez-io/static/js/main.e98e0f2f.js",
+    "main.js": "/sergiolmartinez-io/static/js/main.db0842e8.js",
     "index.html": "/sergiolmartinez-io/index.html",
     "main.88b6b40e.css.map": "/sergiolmartinez-io/static/css/main.88b6b40e.css.map",
-    "main.e98e0f2f.js.map": "/sergiolmartinez-io/static/js/main.e98e0f2f.js.map"
+    "main.db0842e8.js.map": "/sergiolmartinez-io/static/js/main.db0842e8.js.map"
   },
   "entrypoints": [
     "static/css/main.88b6b40e.css",
-    "static/js/main.e98e0f2f.js"
+    "static/js/main.db0842e8.js"
   ]
 }
