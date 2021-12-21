@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sergiomartinez-io/static/css/main.88b6b40e.css",
-    "main.js": "/sergiomartinez-io/static/js/main.3e6c3549.js",
+    "main.js": "/sergiomartinez-io/static/js/main.4df6bccf.js",
     "index.html": "/sergiomartinez-io/index.html",
     "main.88b6b40e.css.map": "/sergiomartinez-io/static/css/main.88b6b40e.css.map",
-    "main.3e6c3549.js.map": "/sergiomartinez-io/static/js/main.3e6c3549.js.map"
+    "main.4df6bccf.js.map": "/sergiomartinez-io/static/js/main.4df6bccf.js.map"
   },
   "entrypoints": [
     "static/css/main.88b6b40e.css",
-    "static/js/main.3e6c3549.js"
+    "static/js/main.4df6bccf.js"
   ]
 }
