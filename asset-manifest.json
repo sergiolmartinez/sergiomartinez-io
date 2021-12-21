@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sergiomartinez-io/static/css/main.88b6b40e.css",
+    "main.js": "/sergiomartinez-io/static/js/main.3e6c3549.js",
+    "index.html": "/sergiomartinez-io/index.html",
+    "main.88b6b40e.css.map": "/sergiomartinez-io/static/css/main.88b6b40e.css.map",
+    "main.3e6c3549.js.map": "/sergiomartinez-io/static/js/main.3e6c3549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88b6b40e.css",
+    "static/js/main.3e6c3549.js"
+  ]
+}
