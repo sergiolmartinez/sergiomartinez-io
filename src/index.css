@@ -4,17 +4,87 @@ body {
   text-align: center;
   font-size: 18px;
   font-family: 'Quicksand';
-  padding-top: 5%;
   word-wrap: break-word;
+  display: block;
+  position: absolute;
+  min-height: 100vh;
+  min-height: 100%;
+  padding-bottom: 150px;
 }
 
 .logo {
-  width: 250px;
-  height: 250px;
+  width: 30px;
+  height: 30px; 
+  margin-right: 5px;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
+  
   align-items: center;
+  
+}
+
+.my-pages {
+  font-family: monospace;
+}
+
+.myleadnote {
+  color: red;
+  text-align: center;
+}
+
+.my-header {
+  text-align: center;
+  color: #38b6ff;
+  margin-top: 10px;
+  font-family: monospace;
+}
+.my-inline {
+  text-align: left;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.home-list-content {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  font-family: monospace;
+  font-size: 18px;
+
+}
+.footer{
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-blocks {
+  display: block;
+  margin: auto;
+}
+
+.bi {
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.ico-link {
+  color: #fff;
+  margin-bottom: 20px;
+  text-decoration: none;
+   
+  &:hover {
+      color: blue;
+      transition: 200ms ease-in;
+  }
+}
+
+.footer-content {
+  font-size: 12px;;
+
 }

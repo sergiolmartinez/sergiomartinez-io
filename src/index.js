@@ -7,6 +7,7 @@ import App from './App';
 
 ReactDOM.render(
   <Router>
+    
     <Routes>
       <Route exact path='/' element={<App/>}/>
     </Routes>
