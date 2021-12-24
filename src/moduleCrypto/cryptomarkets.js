@@ -8,6 +8,10 @@ import Coin from './coin';
 import './cryptomarkets.css'
 import './coin.css'
 
+// Author: Sergio Martinez
+// Date Created: 24 Dec 2021
+// Current Version: 0.1
+
 
 function CryptoMarket() {
     const [coins, setCoins] = useState([])

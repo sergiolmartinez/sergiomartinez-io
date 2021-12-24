@@ -27,7 +27,7 @@ function Nav() {
                   </Link>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><Link className="dropdown-item" to="/Projects/Crypto-Markets">Crypto Markets</Link></li>
-                    <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                    <li><Link className="dropdown-item disabled" to="#">Another action</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item">
