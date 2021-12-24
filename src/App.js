@@ -6,7 +6,7 @@ function App() {
   return (
       <div className="App">      
       <Nav />
-      <div className="container-fluid">
+      <div className="container-fluid main-body">
         <div className="row">
           <div className="col-md-2"></div>
           <div className="col-md-8 my-header">
@@ -17,7 +17,7 @@ function App() {
         <div className="row">
           <div className="col-sm-2"></div>
           <div className="col-sm-8 home-list-content">
-            <p className="lead myleadnote"><i class="bi bi-info-circle">{' '}</i>Site is currently under construction</p>
+            <p className="lead myleadnote"><i className="bi bi-info-circle">{' '}</i>Site is currently under construction</p>
             
             <p className="my-inline">Welcome to my page.</p>  
             <p className="my-inline">

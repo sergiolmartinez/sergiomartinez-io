@@ -1,18 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
   return (
-    <div className="footer navbar-dark bg-dark">
+    <footer className="mt-auto bg-dark w-100 py-3">
         <div className="container">
             <div className="row">
                 <div className='col-sm-4 footer-blocks'>
                     <ul className='list-inline'>
                         <li className='list-inline-item'>
-                        <a href='https://github.com/sergiolmartinez' className='ico-link'><i className="bi bi-github"></i></a>
+                        <a href='https://github.com/sergiolmartinez' className='ico-link' target="_blank"><i className="bi bi-github"></i></a>
                             </li>
                         <li className='list-inline-item'>
-                            <a href='https://www.linkedin.com/in/sergio-martinez-45bbba1b' className='ico-link' ><i class="bi bi-linkedin"></i></a>
+                            <a href='https://www.linkedin.com/in/sergio-martinez-45bbba1b' className='ico-link' target="_blank"><i className="bi bi-linkedin"></i></a>
                             </li>
                     </ul>
                 </div>
@@ -24,7 +25,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
   );
 }
 

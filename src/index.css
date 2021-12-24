@@ -1,3 +1,4 @@
+
 body {
   background-color: #444;
   color: #fff;
@@ -5,12 +6,9 @@ body {
   font-size: 18px;
   font-family: 'Quicksand';
   word-wrap: break-word;
-  display: block;
-  position: absolute;
-  min-height: 100vh;
-  min-height: 100%;
-  padding-bottom: 150px;
 }
+
+
 
 .logo {
   width: 30px;
@@ -19,9 +17,21 @@ body {
 }
 
 .App {
-  
   align-items: center;
-  
+
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .my-pages {
@@ -31,6 +41,18 @@ body {
 .myleadnote {
   color: red;
   text-align: center;
+}
+
+
+
+.my-note {
+  color: white;
+  text-align: center;
+}
+
+.note-link {
+  font-family: monospace;
+  style: none;
 }
 
 .my-header {
@@ -54,14 +76,7 @@ body {
   font-size: 18px;
 
 }
-.footer{
-  display: block;
-  margin-top: 1rem;
-  padding: 1rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+
 
 .footer-blocks {
   display: block;
@@ -77,14 +92,20 @@ body {
   color: #fff;
   margin-bottom: 20px;
   text-decoration: none;
-   
-  &:hover {
-      color: blue;
-      transition: 200ms ease-in;
-  }
 }
+
+.ico-link:hover {
+        color: blue;
+        transition: 200ms, ease-in;
+}
+
 
 .footer-content {
   font-size: 12px;;
+
+}
+
+.crypto-main.body {
+  position: unset;
 
 }
